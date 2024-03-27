@@ -1,0 +1,54 @@
+/* Fichier decoration.css */
+/* Décoration de la page Victor Hugo*/
+         
+h1 {                          /* décoration de la balise h1 */
+    color: #56FF00; 
+}
+
+h2 {                           /* décoration de la balise h2 */
+    color: #FF00EF	/* a compléter pour avoir du violet */
+}
+
+p {                                      /* décoration de la balise p*/
+    background-color: #806E28;                  /* A compléter pour avoir du rose clair */
+    border: #0010FF solid 2px;           /* bordure rouge, "solide" de 2 pixels d’épaisseur. */
+}
+
+.moche {
+	color: green;
+}
+
+html {
+	font-family: comic sans ms, sans-serif;
+	background: repeating-radial-gradient(#806E28, #0010ff 250px);
+}
+
+div.fuckyou {
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+}
+div.fuckyou marquee {
+	width: 100%;
+	height: 100%;
+}
+#dvd {
+	width: 100px;
+}
+
+#snake {
+	width: 100px;
+} 
+#main_content{margin: 0 auto; width: 100%; background: #FFFFFF ;} 
+#main_content_top{height: 30px; background: #FFFFFF ;} 
+#main_content_bottom{height: 30px; background: #FFFFFF ;}
+
+ 
+
+.menu{width: 139px; float: right; padding: 0 20px 0 20px; border-left: #8C8484 1px solid; font-size: 12px;}
+.menu ul{margin: 0; padding: 10px 0 10px 15px;}
+.menu li{padding-top: 2px; list-style-type: circle;}
+.menu_title{font-size: 18px; font-weight: bold; color: #A40008;}
