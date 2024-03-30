@@ -20,8 +20,10 @@ p {                                      /* décoration de la balise p*/
 
 html {
 	font-family: comic sans ms, sans-serif;
-	background-image: url("linuxBOOM.jpg");
-	background-repeat: no-repeat;
+}
+body {
+  background-image: url("linuxBOOM.png");
+  background-repeat: no-repeat;
 }
 
 div.fuckyou {
