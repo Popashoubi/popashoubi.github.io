@@ -20,7 +20,7 @@ p {                                      /* décoration de la balise p*/
 
 html {
 	font-family: comic sans ms, sans-serif;
-	background: repeating-radial-gradient(#806E28, #0010ff 250px);
+	background-image: url("linuxBOOM.jpg")
 }
 
 div.fuckyou {
