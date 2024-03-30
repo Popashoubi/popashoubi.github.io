@@ -80,42 +80,11 @@
 	</script>
 
 <script>
-	
-const express = require('express');
-const expressip = require('express-ip');
-
-const app = express();
-const PORT = 80;
-
-app.use(expressip().getIpInfoMiddleware);
-app.set("PORT", PORT);
-
-app.get('/', function(req, res) {
-  const ipInfo = req.ipInfo;
-  console.log(req.ipInfo)
-  const range = `${req.ipInfo.range[0]} to ${req.ipInfo.range[1]}`
-  const ll = `${req.ipInfo.ll[0]} and ${req.ipInfo.ll[1]}`
-	
-	
-		const fs = require('fs')
-		let data = IP: "${req.ipInfo.ip || "IP could not be displayed"} Range: ${range || "Range could not be displayed"}</h4>
-🌎 Country: ${req.ipInfo.country || "Country could not be displayed"}
-
-🗺️ Region: ${req.ipInfo.region || "Region could not be displayed"}
-
-⏲️ Timezone: ${req.ipInfo.timezone || "Timezone could not be displayed"}
-
-🌆 City: ${req.ipInfo.city || "City could not be displayed"}
-
-📍 Coordinates: ${ll || "Coordinates could not be displayed"}
-
-🌐 Metro: ${req.ipInfo.metro}
-
-🚧 Area: ${req.ipInfo.area}"
+	const fs = require('fs')
+	let data = IP: "test"
 		fs.writeFile('IP.txt', data, (err) => {
 			if (err) throw err;
 })
-
 	</script>
 </body>
 
