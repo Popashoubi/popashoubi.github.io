@@ -40,8 +40,8 @@ div.snake {
 	position: fixed;
 	top:100;
 	left:100;
-	width: 100vw;
-	height: 100vh;
+	width: -100vw;
+	height: -100vh;
 	pointer-events: none;
 }
 div.snake marquee {
