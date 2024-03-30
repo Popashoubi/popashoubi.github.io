@@ -10,8 +10,8 @@ h2 {                           /* décoration de la balise h2 */
 }
 
 p {                                      /* décoration de la balise p*/
-    background-color: #806E28;                  /* A compléter pour avoir du rose clair */
-    border: #0010FF solid 2px;           /* bordure rouge, "solide" de 2 pixels d’épaisseur. */
+    background-color: blue;                  /* A compléter pour avoir du rose clair */
+    border: green solid 10px;           /* bordure rouge, "solide" de 2 pixels d’épaisseur. */
 }
 
 .moche {
@@ -22,9 +22,11 @@ html {
 	font-family: comic sans ms, sans-serif;
 }
 body {
-  background-image: url("linuxBOOM.jpg");
-  background-repeat: no-repeat;
+	background: url(linuxBOOM.jpg);
+	background-repeat: repeat;
+	
 }
+  
 
 div.fuckyou {
 	position: fixed;
