@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Poshou's marvellous website </title>
 	<link href="decorations.css" rel="stylesheet"/>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" defer></script>
 </head>
 <body>
 	<h1>Poshou's marvellous website</h1>
@@ -64,6 +65,16 @@
 		dvd.style.backgroundColor = arr[ctr%arr.length];
 		ctr++;
 	}, 400);
+
+window.onloadTurnstileCallback = function () {
+    turnstile.render('Captcha', {
+        sitekey: '<0x4AAAAAAAiPpZWcDKZvSR7z>',
+        callback: function(token) {
+            console.log(`Challenge Success ${token}`);
+        },
+    });
+};
+</script>
 	</script>
 
 </body>
