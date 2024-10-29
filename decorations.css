@@ -59,7 +59,7 @@ div.dvdlol marquee {
 }
 
 
-div.oué {
+div.ou {
 	position: fixed;
 	top:0;
 	left:0;
@@ -67,12 +67,12 @@ div.oué {
 	height: 100vh;
 	pointer-events: none;
 }
-div.oué marquee {
+div.ou marquee {
 	width: 100%;
 	height: 100%;
 }
 
-#oué {
+#ou {
 	width: 100px;
 }
 
